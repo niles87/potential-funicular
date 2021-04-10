@@ -1,7 +1,7 @@
 {
-  "name": "mern-shopping",
+  "name": "shop-shop",
   "version": "1.0.0",
-  "description": "",
+  "description": "ecommerse app using graphql api and redux state management",
   "main": "server/server.js",
   "scripts": {
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -11,8 +11,16 @@
     "seed": "cd server && npm run seed",
     "heroku-postbuild": "cd client && npm run build"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/niles87/potential-funicular.git"
+  },
+  "author": "niles87",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/niles87/potential-funicular/issues"
+  },
+  "homepage": "https://github.com/niles87/potential-funicular#readme",
   "dependencies": {
     "if-env": "^1.0.4"
   },
